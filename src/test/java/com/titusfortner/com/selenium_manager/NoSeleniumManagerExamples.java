@@ -9,7 +9,7 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 
-public class NoSeleniumManagerTest extends BaseTest {
+public class NoSeleniumManagerExamples extends BaseTest {
     @Test
     public void defaultFails() {
         IllegalStateException thrown = Assertions.assertThrows(IllegalStateException.class, () -> {
